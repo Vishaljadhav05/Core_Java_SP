@@ -1,0 +1,47 @@
+=> Predefined Functional Interfaces :-
+
+
+=> Predicate :-
+-> Predicate is a functional interface which is present in java.util.function package.
+-> Syntax :-
+        public interface Predicate<T>
+        {
+            boolean test(T t);
+            //some default methods are also present
+        }
+-> It improves manageability of the code and also helps in unit-testing.
+ 
+------------------------------------------------------------------------------------------------------------------
+
+=> Function :-
+-> Function is a functional interface which is present in java.util.function package.
+-> Syntax :
+    public interface Function<T,R>  // T - Input parameter  R - Return value
+    {
+        R apply(T t);
+        //some default methods are also present
+    }
+
+------------------------------------------------------------------------------------------------------------------
+
+=> Consumer :-
+-> Consumer is a functional interface which is present in java.util.function package.
+-> Syntax :
+        public interface Consumer<T>  // T - it will only take the parameter
+        {
+            void accept(T t);
+            //default methods..
+        }
+
+------------------------------------------------------------------------------------------------------------------
+
+=> Supplier :-
+-> Supplier is a functional interface which is present in java.util.function package.
+-> Syntax :
+        public interface Supplier<R> // R - it reurn the value
+        {
+            R get();
+        }
+
+
+=> Difference between Predicate, Function, Consumer & Supplier :-
