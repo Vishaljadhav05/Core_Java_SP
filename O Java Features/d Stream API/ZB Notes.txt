@@ -1,0 +1,49 @@
+=> Stream API in Java
+
+=> Stream API :-
+-> Stream API is related to "Collection Framework" or "Group of Objects".
+-> Note : Stream API is not related to Java IO Stream, it is totally different from IO stream.
+-> Stream API was introduced in Java SE 8 version.
+
+-> Use of Stream API :-
+    1. It is used to process or to perform bulk operations on collection objects or group of objects.
+    2. It decreases the number of lines of code.
+
+-> Hierarchy of Stream API :-
+
+-> Stream API Operations Lifecycle :-
+
+1. Get stream from the source and create stream instance.
+2. Perform operations(0,1 or many operations) such as filter(), sort(), map() etc and transform it into another stream.
+3. Perform terminal operation such as count(), sum() etc and produces the result.
+
+=> Stream Interface :-
+-> Stream is an interface which is present in java.util.stream package
+-> Syntax :
+    public interface Stream
+    {
+        forEach();
+        filter();
+        map();
+        collect();
+        sorted();
+        min();
+        max();
+        count();
+        
+        //some static methods
+        of() { - }
+        empty() { - }
+        builder() { - }
+    }
+
+=> Task :-
+    1. WAP to print all the numbers which are greater than 30.
+    2. WAP to print all the string values whose length is greater than 5.
+        a. (deepak, deepesh, amit, rahul, ankit) -> deepak, deepesh.
+    3. WAP to print all the names whose name starts with d.
+    4. WAP to get the first character of each name.
+    5. WAP to replace the a charcter with z character.
+    6. WAP to sort an arraylist containg integer values.
+    7. WAP to get Minimum and Maximum element in an ArrayList.
+    8. WAP to print the sum of all the even numbers in an ArrayList.
